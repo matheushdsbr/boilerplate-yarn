@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "copyjs": "gulp copyjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,0 +1,475 @@
+/*
+ * 
+ * Modules > Variables
+ * 
+ */
+/*
+ * 
+ * Modules > Buttons
+ * 
+ */
+.button {
+  border: none;
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  color: #41171b;
+  font-size: 16px;
+  transition: all 0.4s ease-in-out; }
+  .button:hover {
+    color: #41171b;
+    transform: translateX(15px);
+    transition: all 0.4s ease-in-out; }
+  .button.inverted {
+    background-color: #41171b;
+    color: #fff; }
+  .button.bg-inverted {
+    background-color: #41171b; }
+
+/*
+ * 
+ * Form > Buttons
+ * 
+ */
+#formulario .btn_submit {
+  background-color: #41171b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 45px; }
+  #formulario .btn_submit:hover {
+    border: 1px solid #41171b;
+    background-color: white;
+    color: #41171b;
+    font-weight: bold; }
+
+/*
+ * 
+ * Modules > Colors
+ * 
+ */
+.black {
+  color: #000; }
+
+.white {
+  color: #fff; }
+
+.wine {
+  color: #41171b; }
+
+.bg-black {
+  background-color: #000; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-black-weak {
+  background-color: #2b2424; }
+
+.bg-wine {
+  background-color: #41171b; }
+
+.bg-weak {
+  background-color: #f3efef; }
+
+.bg-img-wine {
+  background-image: url("../img/banner.png"); }
+
+/*
+ * 
+ * Modules > Fonts
+ * 
+ */
+/*
+ * 
+ * Modules > Inputs
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  color: #41171b;
+  background-color: #f3f3f3;
+  border: none;
+  border-bottom: 1px solid #41171b;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  display: block; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Modules > Mixins
+ * 
+ */
+/*
+ * 
+ * Modules > Titles
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.title {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px; }
+
+.subtitle {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Base
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+body {
+  font-family: "Maven Pro", sans-serif; }
+
+@font-face {
+  font-family: "minion-pro";
+  src: url("../fonts/minion-pro.otf"); }
+
+a:hover {
+  text-decoration: none; }
+
+.width-100 {
+  width: 100%; }
+
+.navbar-brand {
+  width: 75%; }
+
+.border-wine {
+  border-top: 15px solid #41171b; }
+
+.border-line {
+  margin: 60px 0; }
+  .border-line img {
+    width: 100%; }
+
+.height {
+  height: 300px; }
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 120px;
+  background-color: #fff; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .border-white {
+    border-left: 3px solid #fff; } }
+
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Footer
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+footer {
+  background-color: #41171b;
+  color: white; }
+  footer p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* RETIRAR NO DESKTOP */ }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Header
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.bg-logo::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  z-index: 0;
+  width: 20%;
+  height: 100px;
+  left: 3%;
+  top: -8%; }
+
+.bg-logo img {
+  position: relative; }
+
+.nav-header ul {
+  display: flex; }
+
+.nav-header a {
+  padding: 12px;
+  color: #6e5051;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  font-size: 20px; }
+
+.header {
+  background-repeat: no-repeat;
+  background: url("../img/banner1.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  color: white; }
+  .header .header-content-position {
+    margin-bottom: 250px; }
+  .header h1 {
+    font-size: 60px; }
+  .header p {
+    width: 75%; }
+  .header a {
+    padding: 10px 15px;
+    font-weight: bold; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .adjust-height {
+    height: 90px; }
+  .width-auto {
+    width: auto; }
+  .bg-logo::before {
+    width: 5%;
+    left: 14px;
+    top: -12%;
+    height: 124%; }
+  .nav-header a:hover {
+    border-bottom: 1px solid #41171b; } }
+
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Nav
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Sidebar
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > About
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.about {
+  color: #41171b;
+  padding: 30px;
+  margin-bottom: -45px;
+  /*h2 {
+    font-size: 20px;
+  }*/ }
+  .about span {
+    font-size: 40px; }
+  .about .border-image {
+    position: relative; }
+    .about .border-image img {
+      width: 100%;
+      border: 3px solid #d5d4d4;
+      padding: 15px; }
+    .about .border-image .border-layer {
+      width: 100%;
+      height: 100%;
+      background-color: #41171b;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(10%, 7%); }
+  .about .text-about {
+    margin-top: 50px; }
+    .about .text-about i {
+      color: #eee;
+      font-size: 3.8rem; }
+    .about .text-about .text-footer {
+      font-family: "minion-pro", sans-serif; }
+  .about .title-about {
+    border-bottom: 1px solid #41171b;
+    width: 20%; }
+  .about .border-about {
+    border-bottom: 2px solid #41171b;
+    max-width: 140px;
+    margin-bottom: 10px; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .sobre {
+    margin-bottom: 0; }
+    .sobre .text-sobre {
+      margin-top: 60px; } }
+
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > About
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.container-consulta {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.texto-agendar-consulta h2,
+.texto-agendar-consulta p {
+  color: #2e2828;
+  font-family: "Maven Pro", sans-serif; }
+
+.texto-agendar-consulta h2 {
+  font-size: 2em;
+  font-weight: 700; }
+
+.texto-agendar-consulta p {
+  font-size: 1em;
+  font-weight: 700; }
+
+.agendar-consulta a {
+  padding: 25px 45px;
+  display: flex;
+  justify-content: center; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+.contact h2 {
+  color: #41171b;
+  font-weight: bold;
+  font-size: 2.5em; }
+
+.contact .info {
+  background-image: url("../img/banner4.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 25px;
+  margin-bottom: 30px; }
+  .contact .info .border-gray {
+    border: 2px solid gray;
+    padding: 30px; }
+  .contact .info a {
+    word-wrap: break-word; }
+    .contact .info a:hover {
+      color: #fff;
+      text-decoration: underline; }
+
+/*
+ * 
+ * Site > Services
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.services {
+  background: url("../img/banner2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 50px 0px 80px 0px; }
+  .services .service-texto {
+    color: #fff;
+    padding: 26px; }
+  .services a {
+    margin-top: 37px;
+    padding: 15px 60px;
+    font-weight: bold; }
+  .services .section-title h2 {
+    font-size: 45px; }
+  .services .box {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 200px; }
+    .services .box img {
+      transition: all 0.4s ease-in-out; }
+    .services .box:hover img {
+      transition: all 0.4s ease-in-out;
+      transform: scale(1.2);
+      margin-bottom: 8px; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/*
+ * 
+ * Site > Solution
+ * 
+ */
+/* MOBILE STYLES ------------------------------------------------------------*/
+.solucao-trabalhista {
+  background-image: url("../img/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 35px 0;
+  color: white; }
+  .solucao-trabalhista a {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    border: 2px solid white; }
+  .solucao-trabalhista h4 {
+    transition: all 0.4s ease-in-out; }
+    .solucao-trabalhista h4:hover {
+      transform: translateX(25px);
+      transition: all 0.4s ease-in-out; }
+    .solucao-trabalhista h4 a {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      border: none;
+      color: #fff; }
+  .solucao-trabalhista .content-button {
+    text-align: center; }
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
