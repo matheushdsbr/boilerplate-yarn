@@ -7,7 +7,7 @@ Boilerplate using Yarn, Gulp, Bootstrap, e SASS.
 #### 1 - Clone Repository
 
 ```
-git clone https://github.com/matheushenrique1/boilerplate-1.git
+git clone https://github.com/RuanRamalho/boilerplate-1.git
 ```
 
 #### 2 - Install Yarn
