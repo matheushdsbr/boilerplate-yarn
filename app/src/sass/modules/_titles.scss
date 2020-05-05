@@ -1,9 +1,21 @@
-
+/* MOBILE STYLES ------------------------------------------------------------*/
+.title {
+  font-family: $font-title;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.subtitle {
+  font-family: $font-subtitle;
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* MEDIA QUERY --------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
 }
-
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
 }
-
+/* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
 }

@@ -1,9 +1,25 @@
-
+/* MOBILE STYLES ------------------------------------------------------------*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  background-color: $white;
+  border-bottom: 1px solid $black;
+  border: none;
+  box-sizing: border-box;
+  color: $black;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  width: 100%;
+}
+/* MEDIA QUERY --------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
 }
-
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
 }
-
+/* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
 }
